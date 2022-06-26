@@ -17,7 +17,7 @@ def main():
             fn = filename
         paths, folder_name = read_files([fn])
         path = paths[0][0]
-        os.system('python yolov5/detect.py --weights yolov5m6 --source images/')
+        os.system('python yolo5/detect.py --weights yolov5m6 --source images/')
         st.image('segmentation.png')
 
 
